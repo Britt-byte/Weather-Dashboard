@@ -1,0 +1,25 @@
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 2px;
+}
+
+input {
+    width: 150px;
+}
+
+.five-card {
+    background: blue;
+    color: white;
+}
+
+.card {
+    background-color: lightgray;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .card-dack {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
